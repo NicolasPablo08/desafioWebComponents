@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+/* presentacion */
+.home__welcome {
+  background-color: #13171c;
+  min-width: 375px;
+  padding: 70px 44px 164px 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 54px;
+}
+
+@media (min-width: 960px) {
+  .home__welcome {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.welcome-title {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 75px;
+  width: 220px;
+  text-align: center;
+  margin: 0;
+}
+
+@media (min-width: 960px) {
+  .welcome-title {
+    text-align: start;
+    align-self: flex-start;
+    font-size: 96px;
+    line-height: 96px;
+    width: 586px;
+  }
+}
+
+.welcome-title span {
+  color: #00adb5;
+}
+
+.welcome-sombra-img {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .welcome-sombra-img {
+    display: inherit;
+    margin-top: 156px;
+  }
+}
+
+.welcome-img {
+  width: 219px;
+  height: 211px;
+}
+
+@media (min-width: 960px) {
+  .welcome-img {
+    /* margin-left: 50px; */
+    width: 353px;
+    height: 340px;
+  }
+}
+
+/* quien soy */
+.home__presentation {
+  background-color: #192130;
+  padding: 71px 44px 112px 44px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 960px) {
+  .home__presentation {
+    display: grid;
+    grid-template-columns: 389px 1fr 454px;
+  }
+}
+
+.presentation-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+@media (min-width: 960px) {
+  .presentation-title {
+    grid-column: 1;
+    font-size: 64px;
+  }
+}
+
+.presentation-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #eeeeeebf;
+  margin: 29px 0 38px;
+}
+
+@media (min-width: 960px) {
+  .presentation-text {
+    grid-column: 1;
+  }
+}
+
+.presentation-img {
+  width: 285px;
+  height: 241px;
+}
+
+@media (min-width: 960px) {
+  .presentation-img {
+    grid-column: 3;
+    align-self: center;
+    width: 454px;
+    height: 328px;
+  }
+}
+
+/* mis servicios */
+.home__services {
+  background-color: #13171c;
+  background-image: url("/icons/fondo-dibujos.svg");
+  padding: 84px 0 111px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 960px) {
+  .home__services {
+    padding: 90px 0 172px 0;
+  }
+}
+
+.services-title {
+  margin: 0;
+  color: white;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.services-title span {
+  color: #00adb5;
+}
+
+@media (min-width: 960px) {
+  .services-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.card {
+  width: 322px;
+  padding: 42px 22px;
+  background-color: #393e4680;
+  border-radius: 16px;
+  margin-top: 48px;
+  text-align: center;
+}
+
+@media (min-width: 960px) {
+  .card {
+    width: 300px;
+    padding: 42px 17.5px;
+
+  }
+}
+
+.card-img {
+  width: 265px;
+  height: 158px;
+  border-radius: 16px;
+
+}
+
+.card-title {
+  font-size: 33px;
+  font-weight: 700px;
+  color: #eeeeee;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #eeeeee;
+  margin: 0;
+  margin-top: 25px;
+  text-align: start;
+}

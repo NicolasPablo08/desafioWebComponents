@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home</title>
+    <link rel="stylesheet" href="/components/header.css" />
+    <script defer src="/components/header.js"></script>
+
+    <link rel="stylesheet" href="/components/contact.css" />
+    <script defer src="/components/contact.js"></script>
+
+    <link rel="stylesheet" href="/components/footer.css" />
+    <script defer src="/components/footer.js"></script>
+
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <div class="index__container">
+      <div class="home__header"></div>
+      <div class="home__welcome">
+        <h1 class="welcome-title">Hola <br /><span>soy Pablo</span></h1>
+        <div class="image">
+          <img src="/icons/dev_welcome.png" alt="" class="welcome-img" />
+        </div>
+      </div>
+      <div class="home__presentation">
+        <div class="presentation-title-text">
+          <h2 class="presentation-title"></h2>
+          <p class="presentation-text"></p>
+        </div>
+        <img src="" alt="" class="presentation-img" />
+      </div>
+      <div class="home__services">
+        <h2 class="services-title">Mis <span>Servicios</span></h2>
+        <div class="services-card"></div>
+        <template id="services-template">
+          <div class="card">
+            <img class="card-img" src="" alt="" />
+            <h3 class="card-title"></h3>
+            <p class="card-text"></p>
+          </div>
+        </template>
+      </div>
+      <div class="home__contact"></div>
+      <footer class="home__footer"></footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Servicios</title>
+    <link rel="stylesheet" href="/components/header.css" />
+    <script defer src="/components/header.js"></script>
+
+    <link rel="stylesheet" href="/components/footer.css" />
+    <script defer src="/components/footer.js"></script>
+
+    <link rel="stylesheet" href="./servicios.css" />
+    <script defer src="./servicios.js"></script>
+  </head>
+  <body>
+    <div class="servicios__container">
+      <div class="servicios__header"></div>
+      <div class="servicios__principal">
+        <h1 class="principal-title">Mis <br /><span>servicios</span></h1>
+        <img class="principal-img" src="/icons/dev_services.png" alt="" />
+      </div>
+      <div class="servicios__works">
+        <div class="works-cards"></div>
+        <template id="services-template">
+          <div class="card__work">
+            <img src="" alt="" class="card__work-img" />
+            <h3 class="card__work-title"></h3>
+            <p class="card__work-text"></p>
+          </div>
+        </template>
+      </div>
+      <footer class="servicios__footer"></footer>
+    </div>
+  </body>
+</html>

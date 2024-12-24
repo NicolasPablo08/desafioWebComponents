@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/components/header.css" />
+    <script derfer src="/components/header.js"></script>
+
+    <link rel="stylesheet" href="/components/footer.css" />
+    <script defer src="/components/footer.js"></script>
+
+    <link rel="stylesheet" href="./portfolio.css" />
+    <script defer src="./portfolio.js"></script>
+  </head>
+  <body>
+    <div class="portfolio__contaier">
+      <div class="portfolio__header"></div>
+      <div class="portfolio__principal">
+        <h1 class="principal-title">Mis <br /><span>trabajos</span></h1>
+        <img class="principal-img" src="/icons/dev-works3.png" alt="" />
+      </div>
+      <div class="portfolio__works">
+        <div class="works-cards"></div>
+        <template id="works-template">
+          <div class="card__work">
+            <img src="" alt="" class="card__work-img" />
+            <h3 class="card__work-title"></h3>
+            <p class="card__work-text"></p>
+          </div>
+        </template>
+        <button class="card__work-button-mas">
+          <img src="/icons/arrow-button-ver-mas-portfolio.svg" alt="" class="card-button-img" />
+          <h3 class="card-button-text">ver más</h3>
+        </button>
+        <button class="card__work-button-menos">
+          <img src="/icons/arrow-button-ver-menos-portfolio.svg" alt="" class="card-button-img" />
+          <h3 class="card-button-text">ver menos</h3>
+        </button>
+      </div>
+      <footer class="portfolio__footer"></footer>
+    </div>
+  </body>
+</html>

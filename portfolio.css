@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+
+}
+
+.portfolio__principal {
+  background-color: #13171c;
+  min-width: 375px;
+  padding: 95px 44px 138px 44px;
+  text-align: center;
+}
+
+@media (min-width: 960px) {
+  .portfolio__principal {
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+
+  }
+}
+
+.principal-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: center;
+
+  color: white;
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.principal-title span {
+  color: #00adb5;
+}
+
+@media (min-width: 960px) {
+  .principal-title {
+    font-size: 96px;
+    font-weight: 700;
+    color: white;
+    text-align: start;
+    grid-column: 1;
+    justify-self: end;
+  }
+}
+
+.principal-img {
+  width: 219px;
+  height: 211px;
+}
+
+@media (min-width: 960px) {
+  .principal-img {
+    width: 292px;
+    height: 281px;
+    grid-column: 3;
+    margin-left: 50px;
+    justify-self: start;
+  }
+}
+
+.principal-img-sombra {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .principal-img-sombra {
+    display: inherit;
+    grid-column: 3;
+    margin-top: 100px;
+  }
+}
+
+.portfolio__works {
+  background-image: url("/icons/fondo-dibujos.svg");
+  background-color: #13171c;
+  min-width: 375px;
+  padding: 77px 0 55px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.works-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+@media (min-width: 960px) {
+  .works-cards {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+}
+
+.card__work {
+  width: 322px;
+  padding: 42px 28.5px;
+  border-radius: 16px;
+  background-color: #393e4680;
+}
+
+@media (min-width: 960px) {
+  .card__work {
+    width: 300px;
+    padding: 42px 17.5px;
+
+  }
+}
+
+.card__work-img {
+  width: 265px;
+  height: 158px;
+  border-radius: 16px;
+
+}
+
+.card__work-title {
+  margin: 25px 0;
+  font-size: 33px;
+  font-weight: 700;
+  text-align: center;
+  color: #eeeeee;
+}
+
+.card__work-text {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #eeeeee;
+}
+
+.card__work-button-mas,
+.card__work-button-menos {
+  margin-top: 107px;
+  background-color: transparent;
+  border: none;
+  color: #eeeeee;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+  /* width: 129px;
+  height: 47px; */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card__work-button-menos {
+  display: none;
+}
+
+.card-button-text {
+  margin: 0;
+}

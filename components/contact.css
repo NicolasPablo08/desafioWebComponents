@@ -1,0 +1,98 @@
+.contact__container {
+  min-width: 375px;
+  background-color: #13171c;
+  font-family: "Poppins";
+  overflow: auto;
+  text-align: center;
+  padding: 86px 31px 135px 31px;
+}
+
+@media (min-width: 960px) {
+  .contact__container {
+    padding: 147px 0 185px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.contact__title {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  margin-bottom: 39px;
+}
+
+@media (min-width: 960px) {
+  .contact__form {
+    display: grid;
+    grid-template-columns: 288px 24px 288px;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+@media (min-width: 960px) {
+  .email {
+    grid-column: 3;
+  }
+}
+
+@media (min-width: 960px) {
+  .message {
+    grid-column: 1 / span 3;
+  }
+}
+
+.form-subtitle {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: start;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  height: 59px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.form-textarea {
+  width: 100%;
+  height: 280px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.form-button {
+  width: 100%;
+  height: 55px;
+  background-color: #00adb5;
+  border: none;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (min-width: 960px) {
+  .form-button {
+    width: 231px;
+  }
+}
+
+.form-button h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Poppins";
+}
