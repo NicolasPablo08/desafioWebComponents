@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "parcel serve ./index.html",
-    "build": "parcel build ./index.html --dist-dir build --public-url /desafio-web-components-10",
+    "build": "parcel build ./index.html --dist-dir build --public-url /desafioWebComponents.github.io",
     "deploy": "gh-pages -d build"
   },
   "author": "",
