@@ -134,7 +134,7 @@ body {
 /* mis servicios */
 .home__services {
   background-color: #13171c;
-  background-image: url("/icons/fondo-dibujos.svg");
+  background-image: url("./icons/fondo-dibujos.svg");
   padding: 84px 0 111px 0;
   display: flex;
   flex-direction: column;

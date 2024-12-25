@@ -26,7 +26,7 @@ function contact(el) {
         <div>
           <button class="form-button">
             <h3>Enviar</h3>
-            <img src="/icons/button-enviar-icon.svg" class="button-icon" />
+            <img src="./icons/button-enviar-icon.svg" class="button-icon" />
           </button>
         </div>
       </form>

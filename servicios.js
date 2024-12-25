@@ -68,7 +68,7 @@ function main() {
   enlaceUrlServiciosEl.textContent = "Portfolio";
   enlaceUrlServiciosEl.setAttribute("href", "./portfolio.html");
   const enlaceImageServiciosEl = document.querySelector(".enlace-img-services");
-  enlaceImageServiciosEl.setAttribute("src", "/icons/footer-work.svg");
+  enlaceImageServiciosEl.setAttribute("src", "./icons/footer-work.svg");
 
   //services
   fetch(

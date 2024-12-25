@@ -75,7 +75,7 @@ body {
 }
 
 .servicios__works {
-  background-image: url("/icons/fondo-dibujos.svg");
+  background-image: url("./icons/fondo-dibujos.svg");
   background-color: #13171c;
   min-width: 375px;
   padding: 77px 0 55px 0;

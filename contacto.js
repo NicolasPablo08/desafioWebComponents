@@ -53,6 +53,6 @@ function main() {
   enlaceUrlContactEl.textContent = "Portfolio";
   enlaceUrlContactEl.setAttribute("href", "./portfolio.html");
   const enlaceImageContactEl = document.querySelector(".enlace-img-contact");
-  enlaceImageContactEl.setAttribute("src", "/icons/footer-work.svg");
+  enlaceImageContactEl.setAttribute("src", "./icons/footer-work.svg");
 }
 main();

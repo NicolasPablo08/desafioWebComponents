@@ -101,7 +101,7 @@ function main() {
   enlaceUrlHomeEl.textContent = "Portfolio";
   enlaceUrlHomeEl.setAttribute("href", "./portfolio.html");
   const enlaceImageHomeEl = document.querySelector(".enlace-img-home");
-  enlaceImageHomeEl.setAttribute("src", "/icons/footer-work.svg");
+  enlaceImageHomeEl.setAttribute("src", "./icons/footer-work.svg");
 
   //services
   fetch(
