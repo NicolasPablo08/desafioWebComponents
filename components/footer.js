@@ -17,9 +17,9 @@ function footer(el) {
         </div>
       </div>
       <div class="redes">
-        <a href="https://instagram.com" target="_blank"><img src="./icons/footer-instagram.svg" alt="" /></a>
-        <a href="https://github.com" target="_blank"><img src="./icons/footer-github.svg" alt="" /></a>
-        <a href="https://x.com" target="_blank"><img src="./icons/footer-twitter.svg" alt="" /></a>
+        <a href="https://instagram.com" target="_blank"><img src="./icons/footer-instagram.svg" /></a>
+        <a href="https://github.com" target="_blank"><img src="./icons/footer-github.svg" /></a>
+        <a href="https://x.com" target="_blank"><img src="./icons/footer-twitter.svg" /></a>
       </div>
       <a href="https://apx.school" class="footer-text" target="_blank">©2024 - https://apx.school</a>
     </div>`;

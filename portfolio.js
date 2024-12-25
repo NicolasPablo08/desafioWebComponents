@@ -7,7 +7,7 @@ function newWork(result) {
   //console.log(result);
   contenedor.innerHTML = ""; // Limpiar el contenedor antes de agregar los elementos
 
-  // Mostrar solo los primeros 'cantidadMostrar' elementos
+  // Mostrar los elementos desde 0 a cantidadMostrar
   const itemsParaMostrar = result.slice(0, cantidadMostrar);
 
   for (const p of itemsParaMostrar) {
@@ -86,13 +86,13 @@ function main() {
   const buttonVerMas = document.querySelector(".card__work-button-mas");
   buttonVerMas.addEventListener("click", () => {
     cantidadMostrar = todosItems.length; // Cambiar a mostrar todos los items
-    newWork(todosItems); // Muestra todos los items al hacer clic
+    newWork(todosItems); // mostrar todos los items al hacer clic
     buttonVerMas.style.display = "none";
     buttonVerMenos.style.display = "inherit";
   });
   buttonVerMenos.addEventListener("click", () => {
     cantidadMostrar = 3; //
-    newWork(todosItems.slice(0, cantidadMostrar)); // Muestra del item 0 al 3
+    newWork(todosItems.slice(0, cantidadMostrar)); // Muestra del item 0 al 3 o el valor que almacene cantidadMostrar
     buttonVerMas.style.display = "inherit";
     buttonVerMenos.style.display = "none";
   });

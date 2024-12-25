@@ -21,7 +21,7 @@ function contact(el) {
         /></label>
         <label class="message"
           ><h3 class="form-subtitle">Mensaje</h3>
-          <textarea id="" class="form-textarea" name="message"></textarea>
+          <textarea class="form-textarea" name="message"></textarea>
         </label>
         <div>
           <button class="form-button">
